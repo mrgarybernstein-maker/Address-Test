@@ -1,13 +1,30 @@
 {
-  "title": "Address Test Form",
-  "subtitle": "Please fill in all fields",
+  "title": "I Am an Historic Anglo",
+  "subtitle": "Please fill in all fields marked with *",
   "submitLabel": "Submit",
   "fields": [
     {
-      "id": "address-mtboinc6",
-      "label": "Address",
-      "type": "big-address",
-      "required": true
+      "id": "don-t-mess-with-my-rights-roberge-mtly3wbe",
+      "label": "DON’T MESS WITH MY RIGHTS, ROBERGE!!",
+      "type": "checkbox",
+      "required": true,
+      "options": [
+        {
+          "value": "anglo,-who-co-founded-our-provice",
+          "label": "Anglo, who co-founded our provice",
+          "required": false
+        },
+        {
+          "value": "allo,-who-helped-build-our-province",
+          "label": "Allo, who helped build our province",
+          "required": false
+        },
+        {
+          "value": "politician,-who-wrecked-our-province",
+          "label": "Politician, who wrecked our province",
+          "required": false
+        }
+      ]
     }
   ],
   "optionSets": {
